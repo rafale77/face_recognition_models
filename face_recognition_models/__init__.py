@@ -18,3 +18,9 @@ def face_recognition_model_location():
 def cnn_face_detector_model_location():
     return resource_filename(__name__, "models/mmod_human_face_detector.dat")
 
+def dnn_face_detector_model_location():
+    return resource_filename(__name__, "res10_300x300_ssd_iter_140000.caffemodel")
+
+def dnn_proto_location():
+    return resource_filename(__name__, "models/deploy.prototxt.txt")
+
